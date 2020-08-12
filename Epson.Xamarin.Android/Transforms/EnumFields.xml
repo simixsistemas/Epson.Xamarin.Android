@@ -11,4 +11,171 @@
     <field jni-name="Fragment_tag" clr-name="Tag" value="2" />
   </mapping>
   -->
+  <mapping jni-class="epson/xamarin/android/enums/Boolean" clr-enum-type="Epson.Xamarin.Android.Enums.Boolean">
+    <field jni-name="FALSE" clr-name="False" value="0" />
+    <field jni-name="TRUE" clr-name="True" value="1" />
+  </mapping>
+  <mapping jni-class="epson/xamarin/android/enums/printer/Battery" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.Battery">
+    <field jni-name="LEVEL_0" clr-name="Level0" value="0" />
+    <field jni-name="LEVEL_1" clr-name="Level1" value="1" />
+    <field jni-name="LEVEL_2" clr-name="Level2" value="2" />
+    <field jni-name="LEVEL_3" clr-name="Level3" value="3" />
+    <field jni-name="LEVEL_4" clr-name="Level4" value="4" />
+    <field jni-name="LEVEL_5" clr-name="Level5" value="5" />
+    <field jni-name="LEVEL_6" clr-name="Level6" value="6" />
+  </mapping>
+  <mapping jni-class="epson/xamarin/android/enums/printer/Feed" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.Feed">
+    <field jni-name="CUTTING" clr-name="Cutting" value="1" />
+    <field jni-name="CURRENT_TOF" clr-name="CurrentTOF" value="2" />
+    <field jni-name="NEXT_TOF" clr-name="NextTOF" value="3" />
+    <field jni-name="PEELING" clr-name="Peeling" value="0" />
+  </mapping>
+  <mapping jni-class="epson/xamarin/android/enums/printer/Layout" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.Layout">
+    <field jni-name="LABEL" clr-name="Label" value="1" />
+    <field jni-name="LABEL_BM" clr-name="LabelBM" value="2" />
+    <field jni-name="RECEIPT" clr-name="Receipt" value="0" />
+    <field jni-name="RECEIPT_BM" clr-name="ReceiptBM" value="3" />
+  </mapping>
+  <mapping jni-class="epson/xamarin/android/enums/printer/MaintenanceCounter" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.MaintenanceCounter">
+    <field jni-name="AUTOCUTTER" clr-name="Autocutter" value="1" />
+    <field jni-name="OTHER" clr-name="Other" value="2" />
+    <field jni-name="PAPERFEED" clr-name="Paperfeed" value="0" />
+  </mapping>
+  <mapping jni-class="epson/xamarin/android/enums/printer/Pattern" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.Pattern">
+    <field jni-name="NONE" clr-name="None" value="0" />
+    <field jni-name="ONE" clr-name="One" value="8" />
+    <field jni-name="TWO" clr-name="Two" value="9" />
+    <field jni-name="THREE" clr-name="Three" value="10" />
+    <field jni-name="FOUR" clr-name="Four" value="11" />
+    <field jni-name="FIVE" clr-name="Five" value="12" />
+    <field jni-name="SIX" clr-name="Six" value="13" />
+    <field jni-name="SEVEN" clr-name="Seven" value="14" />
+    <field jni-name="EIGHT" clr-name="Eight" value="15" />
+    <field jni-name="NINE" clr-name="Nine" value="16" />
+    <field jni-name="TEN" clr-name="Ten" value="17" />
+    <field jni-name="A" clr-name="A" value="1" />
+    <field jni-name="B" clr-name="B" value="2" />
+    <field jni-name="C" clr-name="C" value="3" />
+    <field jni-name="D" clr-name="D" value="4" />
+    <field jni-name="E" clr-name="E" value="5" />
+    <field jni-name="ERROR" clr-name="Error" value="6" />
+    <field jni-name="PAPER_EMPTY" clr-name="PaperEmpty" value="7" />
+  </mapping>
+  <mapping jni-class="epson/xamarin/android/enums/printer/SettingPaper" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.SettingPaper">
+    <field jni-name="PAPERWIDTH_58_0" clr-name="PaperWidth58" value="2" />
+    <field jni-name="PAPERWIDTH_60_0" clr-name="PaperWidth60" value="3" />
+    <field jni-name="PAPERWIDTH_80_0" clr-name="PaperWidth80" value="6" />
+    <field jni-name="PAPERWIDTH_NOT_SETTING" clr-name="PaperWidthNotSetting" value="100000" />
+  </mapping>
+  <mapping jni-class="epson/xamarin/android/enums/printer/SettingDensity" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.SettingDensity">
+    <field jni-name="PRINTDENSITY_70" clr-name="PrintDensity70" value="65530" />
+    <field jni-name="PRINTDENSITY_75" clr-name="PrintDensity75" value="65531" />
+    <field jni-name="PRINTDENSITY_80" clr-name="PrintDensity80" value="65532" />
+    <field jni-name="PRINTDENSITY_85" clr-name="PrintDensity85" value="65533" />
+    <field jni-name="PRINTDENSITY_90" clr-name="PrintDensity90" value="65534" />
+    <field jni-name="PRINTDENSITY_95" clr-name="PrintDensity95" value="65535" />
+    <field jni-name="PRINTDENSITY_100" clr-name="PrintDensity100" value="0" />
+    <field jni-name="PRINTDENSITY_105" clr-name="PrintDensity105" value="1" />
+    <field jni-name="PRINTDENSITY_110" clr-name="PrintDensity110" value="2" />
+    <field jni-name="PRINTDENSITY_115" clr-name="PrintDensity115" value="3" />
+    <field jni-name="PRINTDENSITY_120" clr-name="PrintDensity120" value="4" />
+    <field jni-name="PRINTDENSITY_125" clr-name="PrintDensity125" value="5" />
+    <field jni-name="PRINTDENSITY_130" clr-name="PrintDensity130" value="6" />
+    <field jni-name="PRINTDENSITY_DIP" clr-name="PrintDensityDip" value="100" />
+    <field jni-name="PRINTDENSITY_NOT_SETTING" clr-name="PrintDensityNotSetting" value="100000" />
+  </mapping>
+  <mapping jni-class="epson/xamarin/android/enums/printer/SettingSpeed" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.SettingSpeed">
+    <field jni-name="PRINTSPEED_1" clr-name="PrintSpeed1" value="1" />
+    <field jni-name="PRINTSPEED_2" clr-name="PrintSpeed2" value="2" />
+    <field jni-name="PRINTSPEED_3" clr-name="PrintSpeed3" value="3" />
+    <field jni-name="PRINTSPEED_4" clr-name="PrintSpeed4" value="4" />
+    <field jni-name="PRINTSPEED_5" clr-name="PrintSpeed5" value="5" />
+    <field jni-name="PRINTSPEED_6" clr-name="PrintSpeed6" value="6" />
+    <field jni-name="PRINTSPEED_7" clr-name="PrintSpeed7" value="7" />
+    <field jni-name="PRINTSPEED_8" clr-name="PrintSpeed8" value="8" />
+    <field jni-name="PRINTSPEED_9" clr-name="PrintSpeed9" value="9" />
+    <field jni-name="PRINTSPEED_10" clr-name="PrintSpeed10" value="10" />
+    <field jni-name="PRINTSPEED_11" clr-name="PrintSpeed11" value="11" />
+    <field jni-name="PRINTSPEED_12" clr-name="PrintSpeed12" value="12" />
+    <field jni-name="PRINTSPEED_13" clr-name="PrintSpeed13" value="13" />
+    <field jni-name="PRINTSPEED_14" clr-name="PrintSpeed14" value="14" />
+    <field jni-name="PRINTSPEED_NOT_SETTING" clr-name="PrintSpeedNotSetting" value="100000" />
+  </mapping>
+  <mapping jni-class="epson/xamarin/android/enums/printer/Serie" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.Serie">
+    <field jni-name="TM_H6000" clr-name="TmH6000" value="18" />
+    <field jni-name="TM_L90" clr-name="TmL90" value="17" />
+    <field jni-name="TM_M10" clr-name="TmM10" value="0" />
+    <field jni-name="TM_M30" clr-name="TmM30" value="1" />
+    <field jni-name="TM_P20" clr-name="TmP20" value="2" />
+    <field jni-name="TM_P60" clr-name="TmP60" value="3" />
+    <field jni-name="TM_P60II" clr-name="TmP60II" value="4" />
+    <field jni-name="TM_P80" clr-name="TmP80" value="5" />
+    <field jni-name="TM_T100" clr-name="TmT100" value="20" />
+    <field jni-name="TM_T20" clr-name="TmT20" value="6" />
+    <field jni-name="TM_T60" clr-name="TmT60" value="7" />
+    <field jni-name="TM_T70" clr-name="TmT70" value="8" />
+    <field jni-name="TM_T81" clr-name="TmT81" value="9" />
+    <field jni-name="TM_T82" clr-name="TmT82" value="10" />
+    <field jni-name="TM_T83" clr-name="TmT83" value="11" />
+    <field jni-name="TM_T83III" clr-name="TmT83III" value="19" />
+    <field jni-name="TM_T88" clr-name="TmT88" value="12" />
+    <field jni-name="TM_T90" clr-name="TmT90" value="13" />
+    <field jni-name="TM_T90KP" clr-name="TmT90KP" value="14" />
+    <field jni-name="TM_U220" clr-name="TmU220" value="15" />
+    <field jni-name="TM_U330" clr-name="TmU330" value="16" />
+  </mapping>
+  <mapping jni-class="epson/xamarin/android/enums/printer/Lang" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.Lang">
+    <field jni-name="ANK" clr-name="Ank" value="0" />
+    <field jni-name="JAPANESE" clr-name="Japanese" value="1" />
+    <field jni-name="CHINESE" clr-name="Chinese" value="2" />
+    <field jni-name="TAIWAN" clr-name="Taiwan" value="3" />
+    <field jni-name="KOREAN" clr-name="Korean" value="4" />
+    <field jni-name="THAI" clr-name="Thai" value="5" />
+    <field jni-name="SOUTHASIA" clr-name="SouthAsia" value="6" />
+  </mapping>
+  <mapping jni-class="epson/xamarin/android/enums/printer/Event" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.Event">
+    <field jni-name="ONLINE" clr-name="Online" value="0" />
+    <field jni-name="OFFLINE" clr-name="Offline" value="1" />
+    <field jni-name="POWER_OFF" clr-name="PowerOff" value="2" />
+    <field jni-name="COVER_CLOSE" clr-name="CoverClose" value="3" />
+    <field jni-name="COVER_OPEN" clr-name="CoverOpen" value="4" />
+    <field jni-name="PAPER_OK" clr-name="PaperOk" value="5" />
+    <field jni-name="PAPER_NEAR_END" clr-name="PaperNearEnd" value="6" />
+    <field jni-name="PAPER_EMPTY" clr-name="PaperEmpty" value="7" />
+    <field jni-name="DRAWER_HIGH" clr-name="DrawerHigh" value="8" />
+    <field jni-name="DRAWER_LOW" clr-name="DrawerLow" value="9" />
+    <field jni-name="BATTERY_ENOUGH" clr-name="BatteryEnough" value="10" />
+    <field jni-name="BATTERY_EMPTY" clr-name="BatteryEmpty" value="11" />
+  </mapping>
+  <mapping jni-class="epson/xamarin/android/enums/printer/Code" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.Code">
+    <field jni-name="SUCCESS" clr-name="Success" value="0" />
+    <field jni-name="ERR_PARAM" clr-name="ErrParam" value="1" />
+    <field jni-name="ERR_FAILURE" clr-name="ErrFailure" value="255" />
+    <field jni-name="ERR_TIMEOUT" clr-name="ErrTimeout" value="3" />
+    <field jni-name="ERR_ILLEGAL" clr-name="ErrIllegal" value="5" />
+    <field jni-name="ERR_NOT_FOUND" clr-name="ErrNotFound" value="6" />
+    <field jni-name="ERR_TYPE_INVALID" clr-name="ErrTypeInvalid" value="7" />
+    <field jni-name="ERR_IN_USE" clr-name="ErrInUse" value="8" />
+    <field jni-name="ERR_OPEN" clr-name="ErrOpen" value="9" />
+    <field jni-name="ERR_NOT_OPENED" clr-name="ErrNotOpened" value="10" />
+    <field jni-name="ERR_CLOSE" clr-name="ErrClose" value="11" />
+    <field jni-name="ERR_MEMORY" clr-name="ErrMemory" value="12" />
+    <field jni-name="ERR_AUTOMATICAL" clr-name="ErrAutomatical" value="13" />
+    <field jni-name="ERR_COVER_OPEN" clr-name="ErrCoverOpen" value="14" />
+    <field jni-name="ERR_CUTTER" clr-name="ErrCutter" value="15" />
+    <field jni-name="ERR_MECHANICAL" clr-name="ErrMechanical" value="16" />
+    <field jni-name="ERR_EMPTY" clr-name="ErrEmpty" value="17" />
+    <field jni-name="ERR_UNRECOVERABLE" clr-name="ErrUnrecoverable" value="18" />
+    <field jni-name="ERR_SYSTEM" clr-name="ErrSystem" value="19" />
+    <field jni-name="ERR_PORT" clr-name="ErrPort" value="20" />
+    <field jni-name="ERR_INVALID_WINDOW" clr-name="ErrInvalidWindow" value="21" />
+    <field jni-name="ERR_ALREADY_OPENED" clr-name="ErrAlreadyOpened" value="22" />
+    <field jni-name="ERR_ALREADY_USED" clr-name="ErrAlreadyUsed" value="23" />
+    <field jni-name="ERR_BOX_COUNT_OVER" clr-name="ErrBoxCountOver" value="24" />
+    <field jni-name="ERR_BOX_CLIENT_OVER" clr-name="ErrBoxClientOver" value="25" />
+    <field jni-name="ERR_JOB_NOT_FOUND" clr-name="ErrJobNotFound" value="26" />
+    <field jni-name="PRINTING" clr-name="Printing" value="27" />
+    <field jni-name="ERR_SPOOLER" clr-name="ErrSpooler" value="28" />
+    <field jni-name="ERR_BATTERY_LOW" clr-name="ErrBatteryLow" value="29" />
+  </mapping>
 </enum-field-mappings>
