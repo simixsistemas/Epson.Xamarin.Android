@@ -178,4 +178,52 @@
     <field jni-name="ERR_SPOOLER" clr-name="ErrSpooler" value="28" />
     <field jni-name="ERR_BATTERY_LOW" clr-name="ErrBatteryLow" value="29" />
   </mapping>
+  <mapping jni-class="epson/xamarin/android/enums/discovery/Type" clr-enum-type="Epson.Xamarin.Android.Enums.Discovery.Type">
+    <field jni-name="ALL" clr-name="All" value="0" />
+    <field jni-name="PRINTER" clr-name="Printer" value="1" />
+    <field jni-name="HYBRID_PRINTER" clr-name="HybridPrinter" value="2" />
+    <field jni-name="DISPLAY" clr-name="Display" value="3" />
+    <field jni-name="KEYBOARD" clr-name="Keyboard" value="4" />
+    <field jni-name="SCANNER" clr-name="Scanner" value="5" />
+    <field jni-name="SERIAL" clr-name="Serial" value="6" />
+    <field jni-name="CCHANGER" clr-name="CChanger" value="7" />
+    <field jni-name="POS_KEYBOARD" clr-name="PosKeyboard" value="8" />
+    <field jni-name="CAT" clr-name="Cat" value="9" />
+    <field jni-name="MSR" clr-name="Msr" value="10" />
+    <field jni-name="OTHER_PERIPHERAL" clr-name="OtherPeripheral" value="11" />
+    <field jni-name="GFE" clr-name="Gfe" value="12" />
+  </mapping>
+  <mapping jni-class="epson/xamarin/android/enums/discovery/Port" clr-enum-type="Epson.Xamarin.Android.Enums.Discovery.Port">
+    <field jni-name="ALL" clr-name="All" value="0" />
+    <field jni-name="TCP" clr-name="Tcp" value="1" />
+    <field jni-name="BLUETOOTH" clr-name="Bluetooth" value="2" />
+    <field jni-name="USB" clr-name="Usb" value="3" />
+  </mapping>
+  <mapping jni-class="epson/xamarin/android/enums/discovery/Model" clr-enum-type="Epson.Xamarin.Android.Enums.Discovery.Model">
+    <field jni-name="ALL" clr-name="All" value="0" />
+    <field jni-name="TM_PRINTER" clr-name="TmPrinter" value="1" />
+    <field jni-name="TM_INTELLIGENT" clr-name="TmIntelligent" value="2" />
+  </mapping>
+  <mapping jni-class="epson/xamarin/android/enums/discovery/Filter" clr-enum-type="Epson.Xamarin.Android.Enums.Discovery.Filter">
+    <field jni-name="NONE" clr-name="None" value="1" />
+    <field jni-name="NAME" clr-name="Name" value="0" />
+  </mapping>
+  <mapping jni-class="epson/xamarin/android/enums/epos2exception/Error" clr-enum-type="Epson.Xamarin.Android.Enums.Epos2Exception.Error">
+    <field jni-name="PARAM" clr-name="Param" value="1" />
+    <field jni-name="CONNECT" clr-name="Connect" value="2" />
+    <field jni-name="TIMEOUT" clr-name="Timeout" value="3" />
+    <field jni-name="MEMORY" clr-name="Memory" value="4" />
+    <field jni-name="ILLEGAL" clr-name="Illegal" value="5" />
+    <field jni-name="PROCESSING" clr-name="Processing" value="6" />
+    <field jni-name="NOT_FOUND" clr-name="NotFound" value="7" />
+    <field jni-name="IN_USE" clr-name="InUse" value="8" />
+    <field jni-name="TYPE_INVALID" clr-name="TypeInvalid" value="9" />
+    <field jni-name="DISCONNECT" clr-name="Disconnect" value="10" />
+    <field jni-name="ALREADY_OPENED" clr-name="AlreadyOpened" value="11" />
+    <field jni-name="ALREADY_USED" clr-name="AlreadyUsed" value="12" />
+    <field jni-name="BOX_COUNT_OVER" clr-name="BoxCountOver" value="13" />
+    <field jni-name="BOX_CLIENT_OVER" clr-name="BoxClientOver" value="14" />
+    <field jni-name="UNSUPPORTED" clr-name="Unsupported" value="15" />
+    <field jni-name="FAILURE" clr-name="Failure" value="255" />
+  </mapping>
 </enum-field-mappings>

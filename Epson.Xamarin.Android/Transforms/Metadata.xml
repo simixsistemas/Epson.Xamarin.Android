@@ -134,45 +134,47 @@
   <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='TM_U220']"/>
   <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='TM_U330']"/>
   <!-- DISCOVERY CLASS CONSTANTS -->
-  <attr path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='FALSE']" name="managedName">FALSE</attr>
-  <attr path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='FILTER_NAME']" name="managedName">FILTER_NAME</attr>
-  <attr path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='FILTER_NONE']" name="managedName">FILTER_NONE</attr>
-  <attr path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='MODEL_ALL']" name="managedName">MODEL_ALL</attr>
-  <attr path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='PORTTYPE_ALL']" name="managedName">PORTTYPE_ALL</attr>
-  <attr path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='PORTTYPE_BLUETOOTH']" name="managedName">PORTTYPE_BLUETOOTH</attr>
-  <attr path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='PORTTYPE_TCP']" name="managedName">PORTTYPE_TCP</attr>
-  <attr path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='PORTTYPE_USB']" name="managedName">PORTTYPE_USB</attr>
-  <attr path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='TRUE']" name="managedName">TRUE</attr>
-  <attr path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='TYPE_ALL']" name="managedName">TYPE_ALL</attr>
-  <attr path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='TYPE_CAT']" name="managedName">TYPE_CAT</attr>
-  <attr path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='TYPE_CCHANGER']" name="managedName">TYPE_CCHANGER</attr>
-  <attr path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='TYPE_DISPLAY']" name="managedName">TYPE_DISPLAY</attr>
-  <attr path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='TYPE_GFE']" name="managedName">TYPE_GFE</attr>
-  <attr path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='TYPE_HYBRID_PRINTER']" name="managedName">TYPE_HYBRID_PRINTER</attr>
-  <attr path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='TYPE_KEYBOARD']" name="managedName">TYPE_KEYBOARD</attr>
-  <attr path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='TYPE_MSR']" name="managedName">TYPE_MSR</attr>
-  <attr path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='TYPE_OTHER_PERIPHERAL']" name="managedName">TYPE_OTHER_PERIPHERAL</attr>
-  <attr path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='TYPE_POS_KEYBOARD']" name="managedName">TYPE_POS_KEYBOARD</attr>
-  <attr path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='TYPE_PRINTER']" name="managedName">TYPE_PRINTER</attr>
-  <attr path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='TYPE_SCANNER']" name="managedName">TYPE_SCANNER</attr>
-  <attr path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='TYPE_SERIAL']" name="managedName">TYPE_SERIAL</attr>
+  <remove-node path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='FALSE']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='TRUE']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='TYPE_ALL']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='TYPE_CAT']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='TYPE_CCHANGER']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='TYPE_DISPLAY']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='TYPE_GFE']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='TYPE_HYBRID_PRINTER']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='TYPE_KEYBOARD']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='TYPE_MSR']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='TYPE_OTHER_PERIPHERAL']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='TYPE_POS_KEYBOARD']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='TYPE_PRINTER']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='TYPE_SCANNER']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='TYPE_SERIAL']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='PORTTYPE_ALL']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='PORTTYPE_BLUETOOTH']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='PORTTYPE_TCP']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='PORTTYPE_USB']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='FILTER_NAME']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='FILTER_NONE']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='MODEL_ALL']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='MODEL_TM_PRINTER']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='MODEL_TM_INTELLIGENT']"/>
   <!-- EPOS2EXCEPTION CLASS CONSTANTS -->
-  <attr path="/api/package[@name='com.epson.epos2']/class[@name='Epos2Exception']/field[@name='ERR_ALREADY_OPENED']" name="managedName">ERR_ALREADY_OPENED</attr>
-  <attr path="/api/package[@name='com.epson.epos2']/class[@name='Epos2Exception']/field[@name='ERR_ALREADY_USED']" name="managedName">ERR_ALREADY_USED</attr>
-  <attr path="/api/package[@name='com.epson.epos2']/class[@name='Epos2Exception']/field[@name='ERR_BOX_CLIENT_OVER']" name="managedName">ERR_BOX_CLIENT_OVER</attr>
-  <attr path="/api/package[@name='com.epson.epos2']/class[@name='Epos2Exception']/field[@name='ERR_BOX_COUNT_OVER']" name="managedName">ERR_BOX_COUNT_OVER</attr>
-  <attr path="/api/package[@name='com.epson.epos2']/class[@name='Epos2Exception']/field[@name='ERR_CONNECT']" name="managedName">ERR_CONNECT</attr>
-  <attr path="/api/package[@name='com.epson.epos2']/class[@name='Epos2Exception']/field[@name='ERR_DISCONNECT']" name="managedName">ERR_DISCONNECT</attr>
-  <attr path="/api/package[@name='com.epson.epos2']/class[@name='Epos2Exception']/field[@name='ERR_FAILURE']" name="managedName">ERR_FAILURE</attr>
-  <attr path="/api/package[@name='com.epson.epos2']/class[@name='Epos2Exception']/field[@name='ERR_ILLEGAL']" name="managedName">ERR_ILLEGAL</attr>
-  <attr path="/api/package[@name='com.epson.epos2']/class[@name='Epos2Exception']/field[@name='ERR_IN_USE']" name="managedName">ERR_IN_USE</attr>
-  <attr path="/api/package[@name='com.epson.epos2']/class[@name='Epos2Exception']/field[@name='ERR_MEMORY']" name="managedName">ERR_MEMORY</attr>
-  <attr path="/api/package[@name='com.epson.epos2']/class[@name='Epos2Exception']/field[@name='ERR_NOT_FOUND']" name="managedName">ERR_NOT_FOUND</attr>
-  <attr path="/api/package[@name='com.epson.epos2']/class[@name='Epos2Exception']/field[@name='ERR_PARAM']" name="managedName">ERR_PARAM</attr>
-  <attr path="/api/package[@name='com.epson.epos2']/class[@name='Epos2Exception']/field[@name='ERR_PROCESSING']" name="managedName">ERR_PROCESSING</attr>
-  <attr path="/api/package[@name='com.epson.epos2']/class[@name='Epos2Exception']/field[@name='ERR_TIMEOUT']" name="managedName">ERR_TIMEOUT</attr>
-  <attr path="/api/package[@name='com.epson.epos2']/class[@name='Epos2Exception']/field[@name='ERR_TYPE_INVALID']" name="managedName">ERR_TYPE_INVALID</attr>
-  <attr path="/api/package[@name='com.epson.epos2']/class[@name='Epos2Exception']/field[@name='ERR_UNSUPPORTED']" name="managedName">ERR_UNSUPPORTED</attr>
+  <remove-node path="/api/package[@name='com.epson.epos2']/class[@name='Epos2Exception']/field[@name='ERR_ALREADY_OPENED']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2']/class[@name='Epos2Exception']/field[@name='ERR_ALREADY_USED']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2']/class[@name='Epos2Exception']/field[@name='ERR_BOX_CLIENT_OVER']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2']/class[@name='Epos2Exception']/field[@name='ERR_BOX_COUNT_OVER']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2']/class[@name='Epos2Exception']/field[@name='ERR_CONNECT']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2']/class[@name='Epos2Exception']/field[@name='ERR_DISCONNECT']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2']/class[@name='Epos2Exception']/field[@name='ERR_FAILURE']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2']/class[@name='Epos2Exception']/field[@name='ERR_ILLEGAL']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2']/class[@name='Epos2Exception']/field[@name='ERR_IN_USE']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2']/class[@name='Epos2Exception']/field[@name='ERR_MEMORY']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2']/class[@name='Epos2Exception']/field[@name='ERR_NOT_FOUND']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2']/class[@name='Epos2Exception']/field[@name='ERR_PARAM']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2']/class[@name='Epos2Exception']/field[@name='ERR_PROCESSING']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2']/class[@name='Epos2Exception']/field[@name='ERR_TIMEOUT']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2']/class[@name='Epos2Exception']/field[@name='ERR_TYPE_INVALID']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2']/class[@name='Epos2Exception']/field[@name='ERR_UNSUPPORTED']"/>
   <!-- RENAME METHODS -->
   <attr path="/api/package[@name='com.epson.epos2.printer']/interface[@name='StatusChangeListener']/method[@name='onPtrStatusChange']" name="managedName">OnPrintStatusChanged</attr>
   <attr path="/api/package[@name='com.epson.epos2.printer']/interface[@name='ReceiveListener']/method[@name='onPtrReceive']" name="managedName">OnPrintReceived</attr>
