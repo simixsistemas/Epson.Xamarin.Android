@@ -56,6 +56,8 @@
     <EmbeddedNativeLibrary Include="lib\armeabi\libeposeasyselect.so" />
     <EmbeddedNativeLibrary Include="lib\x86_64\libepos2.so" />
     <EmbeddedNativeLibrary Include="lib\x86_64\libeposeasyselect.so" />
+    <EmbeddedNativeLibrary Include="lib\x86\libepos2.so" />
+    <EmbeddedNativeLibrary Include="lib\x86\libeposeasyselect.so" />
   </ItemGroup>
   <ItemGroup>
     <TransformFile Include="Transforms\Metadata.xml" />
