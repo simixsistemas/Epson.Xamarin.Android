@@ -17,6 +17,11 @@
     <method jni-name="onPtrReceive" parameter="code" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.Code" />
   </mapping>
   <mapping jni-class="com/epson/epos2/printer/Printer">
+    <method jni-name="ctor" 
+            parameter="printerSeries" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.Serie" />
+    <method jni-name="ctor" 
+            parameter="printerModel" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.Model" />
+    
     <method jni-name="addTextAlign" 
             parameter="textAlign" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.TextAlign" />
     

@@ -187,6 +187,8 @@
   <attr path="/api/package[@name='com.epson.epos2.printer']/interface[@name='ReceiveListener']/method[@name='onPtrReceive']/parameter[@name='p1']" name="name">code</attr>
   <attr path="/api/package[@name='com.epson.epos2.printer']/interface[@name='ReceiveListener']/method[@name='onPtrReceive']/parameter[@name='p2']" name="name">status</attr>
   <attr path="/api/package[@name='com.epson.epos2.printer']/interface[@name='ReceiveListener']/method[@name='onPtrReceive']/parameter[@name='p3']" name="name">printJobId</attr>
+  <!-- com.epson.epos2.printer new Printer() -->
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/constructor[@name='Printer']/parameter[@name='lang']" name="name">printerModel</attr>
   <!-- com.epson.epos2.printer new Printer().addTextAlign() -->
   <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addTextAlign']/parameter[@name='p0']" name="name">textAlign</attr>
   <!-- com.epson.epos2.printer new Printer().addLineSpace() -->
