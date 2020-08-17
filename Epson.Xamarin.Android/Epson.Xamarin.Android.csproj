@@ -54,8 +54,6 @@
     <EmbeddedNativeLibrary Include="lib\armeabi-v7a\libeposeasyselect.so" />
     <EmbeddedNativeLibrary Include="lib\armeabi\libepos2.so" />
     <EmbeddedNativeLibrary Include="lib\armeabi\libeposeasyselect.so" />
-    <EmbeddedNativeLibrary Include="lib\x86\libepos2.so" />
-    <EmbeddedNativeLibrary Include="lib\x86\libeposeasyselect.so" />
     <EmbeddedNativeLibrary Include="lib\x86_64\libepos2.so" />
     <EmbeddedNativeLibrary Include="lib\x86_64\libeposeasyselect.so" />
   </ItemGroup>

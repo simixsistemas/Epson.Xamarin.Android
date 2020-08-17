@@ -24,13 +24,13 @@
     <field jni-name="LEVEL_5" clr-name="Level5" value="5" />
     <field jni-name="LEVEL_6" clr-name="Level6" value="6" />
   </mapping>
-  <mapping jni-class="epson/xamarin/android/enums/printer/Feed" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.Feed">
+  <mapping jni-class="epson/xamarin/android/enums/printer/FeedPosition" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.FeedPosition">
     <field jni-name="CUTTING" clr-name="Cutting" value="1" />
     <field jni-name="CURRENT_TOF" clr-name="CurrentTOF" value="2" />
     <field jni-name="NEXT_TOF" clr-name="NextTOF" value="3" />
     <field jni-name="PEELING" clr-name="Peeling" value="0" />
   </mapping>
-  <mapping jni-class="epson/xamarin/android/enums/printer/Layout" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.Layout">
+  <mapping jni-class="epson/xamarin/android/enums/printer/LayoutType" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.LayoutType">
     <field jni-name="LABEL" clr-name="Label" value="1" />
     <field jni-name="LABEL_BM" clr-name="LabelBM" value="2" />
     <field jni-name="RECEIPT" clr-name="Receipt" value="0" />
@@ -42,7 +42,15 @@
     <field jni-name="PAPERFEED" clr-name="Paperfeed" value="0" />
   </mapping>
   <mapping jni-class="epson/xamarin/android/enums/printer/Pattern" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.Pattern">
+    <field jni-name="DEFAULT" clr-name="Default" value="1" />
     <field jni-name="NONE" clr-name="None" value="0" />
+    <field jni-name="A" clr-name="A" value="1" />
+    <field jni-name="B" clr-name="B" value="2" />
+    <field jni-name="C" clr-name="C" value="3" />
+    <field jni-name="D" clr-name="D" value="4" />
+    <field jni-name="E" clr-name="E" value="5" />
+    <field jni-name="ERROR" clr-name="Error" value="6" />
+    <field jni-name="PAPER_EMPTY" clr-name="PaperEmpty" value="7" />
     <field jni-name="ONE" clr-name="One" value="8" />
     <field jni-name="TWO" clr-name="Two" value="9" />
     <field jni-name="THREE" clr-name="Three" value="10" />
@@ -53,13 +61,6 @@
     <field jni-name="EIGHT" clr-name="Eight" value="15" />
     <field jni-name="NINE" clr-name="Nine" value="16" />
     <field jni-name="TEN" clr-name="Ten" value="17" />
-    <field jni-name="A" clr-name="A" value="1" />
-    <field jni-name="B" clr-name="B" value="2" />
-    <field jni-name="C" clr-name="C" value="3" />
-    <field jni-name="D" clr-name="D" value="4" />
-    <field jni-name="E" clr-name="E" value="5" />
-    <field jni-name="ERROR" clr-name="Error" value="6" />
-    <field jni-name="PAPER_EMPTY" clr-name="PaperEmpty" value="7" />
   </mapping>
   <mapping jni-class="epson/xamarin/android/enums/printer/SettingPaper" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.SettingPaper">
     <field jni-name="PAPERWIDTH_58_0" clr-name="PaperWidth58" value="2" />
@@ -124,7 +125,7 @@
     <field jni-name="TM_U220" clr-name="TmU220" value="15" />
     <field jni-name="TM_U330" clr-name="TmU330" value="16" />
   </mapping>
-  <mapping jni-class="epson/xamarin/android/enums/printer/Lang" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.Lang">
+  <mapping jni-class="epson/xamarin/android/enums/printer/Model" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.Model">
     <field jni-name="ANK" clr-name="Ank" value="0" />
     <field jni-name="JAPANESE" clr-name="Japanese" value="1" />
     <field jni-name="CHINESE" clr-name="Chinese" value="2" />
@@ -177,6 +178,160 @@
     <field jni-name="PRINTING" clr-name="Printing" value="27" />
     <field jni-name="ERR_SPOOLER" clr-name="ErrSpooler" value="28" />
     <field jni-name="ERR_BATTERY_LOW" clr-name="ErrBatteryLow" value="29" />
+  </mapping>
+  <mapping jni-class="epson/xamarin/android/enums/printer/TextAlign" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.TextAlign">
+    <field jni-name="LEFT" clr-name="Left" value="0" />
+    <field jni-name="CENTER" clr-name="Center" value="1" />
+    <field jni-name="RIGHT" clr-name="Right" value="2" />
+  </mapping>
+  <mapping jni-class="epson/xamarin/android/enums/printer/Lang" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.Lang">
+    <field jni-name="EN" clr-name="EN" value="0" />
+    <field jni-name="JA" clr-name="JA" value="1" />
+    <field jni-name="ZH_CN" clr-name="ZH_CN" value="2" />
+    <field jni-name="ZH_TW" clr-name="ZH_TW" value="3" />
+    <field jni-name="KO" clr-name="KO" value="4" />
+    <field jni-name="TH" clr-name="TH" value="5" />
+    <field jni-name="VI" clr-name="VI" value="6" />
+  </mapping>
+  <mapping jni-class="epson/xamarin/android/enums/printer/Font" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.Font">
+    <field jni-name="A" clr-name="A" value="0" />
+    <field jni-name="B" clr-name="B" value="1" />
+    <field jni-name="C" clr-name="C" value="2" />
+    <field jni-name="D" clr-name="D" value="3" />
+    <field jni-name="E" clr-name="E" value="4" />
+  </mapping>
+  <mapping jni-class="epson/xamarin/android/enums/printer/TextSize" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.TextSize">
+    <field jni-name="DEFAULT" clr-name="Default" value="1" />
+    <field jni-name="SIZE_1" clr-name="Size1" value="1" />
+    <field jni-name="SIZE_2" clr-name="Size2" value="2" />
+    <field jni-name="SIZE_3" clr-name="Size3" value="3" />
+    <field jni-name="SIZE_4" clr-name="Size4" value="4" />
+    <field jni-name="SIZE_5" clr-name="Size5" value="5" />
+    <field jni-name="SIZE_6" clr-name="Size6" value="6" />
+    <field jni-name="SIZE_7" clr-name="Size7" value="7" />
+    <field jni-name="SIZE_8" clr-name="Size8" value="8" />
+  </mapping>
+  <mapping jni-class="epson/xamarin/android/enums/printer/Color" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.Color">
+    <field jni-name="NONE" clr-name="None" value="0" />
+    <field jni-name="DEFAULT" clr-name="Default" value="1" />
+    <field jni-name="FIRST" clr-name="First" value="1" />
+    <field jni-name="SECOND" clr-name="Second" value="2" />
+    <field jni-name="THIRD" clr-name="Third" value="3" />
+    <field jni-name="FOURTH" clr-name="Fourth" value="4" />
+  </mapping>
+  <mapping jni-class="epson/xamarin/android/enums/printer/ColorMode" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.ColorMode">
+    <field jni-name="DEFAULT" clr-name="Default" value="2" />
+    <field jni-name="MONO" clr-name="Mono" value="0" />
+    <field jni-name="GRAY16" clr-name="Gray16" value="1" />
+    <field jni-name="MONO_HIGH_DENSITY" clr-name="MonoHighDensity" value="2" />
+  </mapping>
+  <mapping jni-class="epson/xamarin/android/enums/printer/Halftone" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.Halftone">
+    <field jni-name="DEFAULT" clr-name="Default" value="0" />
+    <field jni-name="DITHER" clr-name="Dither" value="0" />
+    <field jni-name="ERROR_DIFFUSION" clr-name="ErrorDiffusion" value="1" />
+    <field jni-name="THRESHOLD" clr-name="Threshold" value="2" />
+  </mapping>
+  <mapping jni-class="epson/xamarin/android/enums/printer/Compress" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.Compress">
+    <field jni-name="DEFAULT" clr-name="Default" value="2" />
+    <field jni-name="NONE" clr-name="None" value="0" />
+    <field jni-name="DEFLATE" clr-name="Deflate" value="1" />
+    <field jni-name="AUTO" clr-name="Auto" value="2" />
+  </mapping>
+  <mapping jni-class="epson/xamarin/android/enums/printer/BarcodeType" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.BarcodeType">
+    <field jni-name="UPC_A" clr-name="UpcA" value="0" />
+    <field jni-name="UPC_E" clr-name="UpcE" value="1" />
+    <field jni-name="EAN13" clr-name="Ean13" value="2" />
+    <field jni-name="JAN13" clr-name="Jan13" value="3" />
+    <field jni-name="EAN8" clr-name="Ean8" value="4" />
+    <field jni-name="JAN8" clr-name="Jan8" value="5" />
+    <field jni-name="CODE39" clr-name="Code39" value="6" />
+    <field jni-name="ITF" clr-name="Itf" value="7" />
+    <field jni-name="CODABAR" clr-name="Codabar" value="8" />
+    <field jni-name="CODE93" clr-name="Code93" value="9" />
+    <field jni-name="CODE128" clr-name="Code128" value="10" />
+    <field jni-name="GS1_128" clr-name="Gs1128" value="11" />
+    <field jni-name="GS1_DATABAR_OMNIDIRECTIONAL" clr-name="Gs1DatabaOmnidirectional" value="12" />
+    <field jni-name="GS1_DATABAR_TRUNCATED" clr-name="Gs1DatabaTruncated" value="13" />
+    <field jni-name="GS1_DATABAR_LIMITED" clr-name="Gs1DatabaLimited" value="14" />
+    <field jni-name="GS1_DATABAR_EXPANDED" clr-name="Gs1DatabaExpanded" value="15" />
+  </mapping>
+  <mapping jni-class="epson/xamarin/android/enums/printer/HRI" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.HRI">
+    <field jni-name="DEFAULT" clr-name="Default" value="0" />
+    <field jni-name="NONE" clr-name="None" value="0" />
+    <field jni-name="ABOVE" clr-name="Above" value="1" />
+    <field jni-name="BELOW" clr-name="Below" value="2" />
+    <field jni-name="BOTH" clr-name="Both" value="3" />
+  </mapping>
+  <mapping jni-class="epson/xamarin/android/enums/printer/SymbolType" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.SymbolType">
+    <field jni-name="PDF417_STANDARD" clr-name="Pdf417Standard" value="0" />
+    <field jni-name="PDF417_TRUNCATED" clr-name="Pdf417Truncated" value="1" />
+    <field jni-name="QRCODE_MODEL_1" clr-name="QrCodeModel1" value="2" />
+    <field jni-name="QRCODE_MODEL_2" clr-name="QrCodeModel2" value="3" />
+    <field jni-name="QRCODE_MICRO" clr-name="QrCodeMicro" value="4" />
+    <field jni-name="MAXICODE_MODE_2" clr-name="MaxicodeMode2" value="5" />
+    <field jni-name="MAXICODE_MODE_3" clr-name="MaxicodeMode3" value="6" />
+    <field jni-name="MAXICODE_MODE_4" clr-name="MaxicodeMode4" value="7" />
+    <field jni-name="MAXICODE_MODE_5" clr-name="MaxicodeMode5" value="8" />
+    <field jni-name="MAXICODE_MODE_6" clr-name="MaxicodeMode6" value="9" />
+    <field jni-name="GS1_DATABAR_STACKED" clr-name="Gs1DatabarStacked" value="10" />
+    <field jni-name="GS1_DATABAR_STACKED_OMNIDIRECTIONAL" clr-name="Gs1DatabarStackedOmnidirectional" value="11" />
+    <field jni-name="GS1_DATABAR_EXPANDED_STACKED" clr-name="Gs1DatabarExpandedStacked" value="12" />
+    <field jni-name="AZTECCODE_FULLRANGE" clr-name="AztecCodeFullRange" value="13" />
+    <field jni-name="AZTECCODE_COMPACT" clr-name="AztecCodeCompact" value="14" />
+    <field jni-name="DATAMATRIX_SQUARE" clr-name="DataMatrixSquare" value="15" />
+    <field jni-name="DATAMATRIX_RECTANGLE_8" clr-name="DataMatrixRectangle8" value="16" />
+    <field jni-name="DATAMATRIX_RECTANGLE_12" clr-name="DataMatrixRectangle12" value="17" />
+    <field jni-name="DATAMATRIX_RECTANGLE_16" clr-name="DataMatrixRectangle16" value="18" />
+  </mapping>
+  <mapping jni-class="epson/xamarin/android/enums/printer/ErrorCorrection" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.ErrorCorrection">
+    <field jni-name="LEVEL_0" clr-name="Level0" value="0" />
+    <field jni-name="LEVEL_1" clr-name="Level1" value="1" />
+    <field jni-name="LEVEL_2" clr-name="Level2" value="2" />
+    <field jni-name="LEVEL_3" clr-name="Level3" value="3" />
+    <field jni-name="LEVEL_4" clr-name="Level4" value="4" />
+    <field jni-name="LEVEL_5" clr-name="Level5" value="5" />
+    <field jni-name="LEVEL_6" clr-name="Level6" value="6" />
+    <field jni-name="LEVEL_7" clr-name="Level7" value="7" />
+    <field jni-name="LEVEL_8" clr-name="Level8" value="8" />
+    <field jni-name="LEVEL_L" clr-name="LevelL" value="9" />
+    <field jni-name="LEVEL_M" clr-name="LevelM" value="10" />
+    <field jni-name="LEVEL_Q" clr-name="LevelQ" value="11" />
+    <field jni-name="LEVEL_H" clr-name="LevelH" value="12" />
+  </mapping>
+  <mapping jni-class="epson/xamarin/android/enums/printer/LineStyle" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.LineStyle">
+    <field jni-name="DEFAULT" clr-name="Default" value="0" />
+    <field jni-name="THIN" clr-name="Thin" value="0" />
+    <field jni-name="MEDIUM" clr-name="Medium" value="1" />
+    <field jni-name="THICK" clr-name="Thick" value="2" />
+    <field jni-name="THIN_DOUBLE" clr-name="ThinDouble" value="3" />
+    <field jni-name="MEDIUM_DOUBLE" clr-name="MediumDouble" value="4" />
+    <field jni-name="THICK_DOUBLE" clr-name="ThickDouble" value="5" />
+  </mapping>
+  <mapping jni-class="epson/xamarin/android/enums/printer/PageDirection" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.PageDirection">
+    <field jni-name="DEFAULT" clr-name="Default" value="0" />
+    <field jni-name="LEFT_TO_RIGHT" clr-name="LeftToRight" value="0" />
+    <field jni-name="BOTTOM_TO_TOP" clr-name="BottomToTop" value="1" />
+    <field jni-name="RIGHT_TO_LEFT" clr-name="RightToLeft" value="2" />
+    <field jni-name="TOP_TO_BOTTOM" clr-name="TopToBottom" value="3" />
+  </mapping>
+  <mapping jni-class="epson/xamarin/android/enums/printer/CutType" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.CutType">
+    <field jni-name="DEFAULT" clr-name="Default" value="1" />
+    <field jni-name="NO_FEED" clr-name="NoFeed" value="0" />
+    <field jni-name="FEED" clr-name="Feed" value="1" />
+    <field jni-name="RESERVE" clr-name="Reserve" value="2" />
+  </mapping>
+  <mapping jni-class="epson/xamarin/android/enums/printer/Drawer" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.Drawer">
+    <field jni-name="DEFAULT" clr-name="Default" value="0" />
+    <field jni-name="2PIN" clr-name="TwoPin" value="0" />
+    <field jni-name="5PIN" clr-name="FivePin" value="1" />
+  </mapping>
+  <mapping jni-class="epson/xamarin/android/enums/printer/PulseTime" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.PulseTime">
+    <field jni-name="DEFAULT" clr-name="Default" value="0" />
+    <field jni-name="PULSE_100" clr-name="Pulse100" value="0" />
+    <field jni-name="PULSE_200" clr-name="Pulse200" value="1" />
+    <field jni-name="PULSE_300" clr-name="Pulse300" value="2" />
+    <field jni-name="PULSE_400" clr-name="Pulse400" value="3" />
+    <field jni-name="PULSE_500" clr-name="Pulse500" value="4" />
   </mapping>
   <mapping jni-class="epson/xamarin/android/enums/discovery/Type" clr-enum-type="Epson.Xamarin.Android.Enums.Discovery.Type">
     <field jni-name="ALL" clr-name="All" value="0" />

@@ -179,11 +179,103 @@
   <attr path="/api/package[@name='com.epson.epos2.printer']/interface[@name='StatusChangeListener']/method[@name='onPtrStatusChange']" name="managedName">OnPrintStatusChanged</attr>
   <attr path="/api/package[@name='com.epson.epos2.printer']/interface[@name='ReceiveListener']/method[@name='onPtrReceive']" name="managedName">OnPrintReceived</attr>
   <!-- RENAME METHOD PARAMS -->
+  <!-- com.epson.epos2.printer IStatusChangeListener.onPtrStatusChange() -->
   <attr path="/api/package[@name='com.epson.epos2.printer']/interface[@name='StatusChangeListener']/method[@name='onPtrStatusChange']/parameter[@name='p0']" name="name">printer</attr>
   <attr path="/api/package[@name='com.epson.epos2.printer']/interface[@name='StatusChangeListener']/method[@name='onPtrStatusChange']/parameter[@name='p1']" name="name">eventType</attr>
+  <!-- com.epson.epos2.printer IReceiveListener.onPtrReceive() -->
   <attr path="/api/package[@name='com.epson.epos2.printer']/interface[@name='ReceiveListener']/method[@name='onPtrReceive']/parameter[@name='p0']" name="name">printer</attr>
   <attr path="/api/package[@name='com.epson.epos2.printer']/interface[@name='ReceiveListener']/method[@name='onPtrReceive']/parameter[@name='p1']" name="name">code</attr>
   <attr path="/api/package[@name='com.epson.epos2.printer']/interface[@name='ReceiveListener']/method[@name='onPtrReceive']/parameter[@name='p2']" name="name">status</attr>
   <attr path="/api/package[@name='com.epson.epos2.printer']/interface[@name='ReceiveListener']/method[@name='onPtrReceive']/parameter[@name='p3']" name="name">printJobId</attr>
+  <!-- com.epson.epos2.printer new Printer().addTextAlign() -->
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addTextAlign']/parameter[@name='p0']" name="name">textAlign</attr>
+  <!-- com.epson.epos2.printer new Printer().addLineSpace() -->
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addLineSpace']/parameter[@name='p0']" name="name">lineSpace</attr>
+  <!-- com.epson.epos2.printer new Printer().addTextRotate() -->
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addTextRotate']/parameter[@name='p0']" name="name">isEnabled</attr>
+  <!-- com.epson.epos2.printer new Printer().addText() -->
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addText']/parameter[@name='p0']" name="name">text</attr>
+  <!-- com.epson.epos2.printer new Printer().addTextLang() -->
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addTextLang']/parameter[@name='p0']" name="name">lang</attr>
+  <!-- com.epson.epos2.printer new Printer().addTextFont() -->
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addTextFont']/parameter[@name='p0']" name="name">font</attr>
+  <!-- com.epson.epos2.printer new Printer().addTextSmooth() -->
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addTextSmooth']/parameter[@name='p0']" name="name">isEnabled</attr>
+  <!-- com.epson.epos2.printer new Printer().addTextSize() -->
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addTextSize']/parameter[@name='p0']" name="name">horizontalSize</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addTextSize']/parameter[@name='p1']" name="name">verticalSize</attr>
+  <!-- com.epson.epos2.printer new Printer().addTextStyle() -->
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addTextStyle']/parameter[@name='p0']" name="name">reverse</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addTextStyle']/parameter[@name='p1']" name="name">underline</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addTextStyle']/parameter[@name='p2']" name="name">bold</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addTextStyle']/parameter[@name='p3']" name="name">color</attr>
+  <!-- com.epson.epos2.printer new Printer().addHPosition() -->
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addHPosition']/parameter[@name='p0']" name="name">x</attr>
+  <!-- com.epson.epos2.printer new Printer().addFeedUnit() -->
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addFeedUnit']/parameter[@name='p0']" name="name">unit</attr>
+  <!-- com.epson.epos2.printer new Printer().addFeedLine() -->
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addFeedLine']/parameter[@name='p0']" name="name">line</attr>
+  <!-- com.epson.epos2.printer new Printer().addImage() -->
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addImage']/parameter[@name='p0']" name="name">image</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addImage']/parameter[@name='p1']" name="name">x</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addImage']/parameter[@name='p2']" name="name">y</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addImage']/parameter[@name='p3']" name="name">width</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addImage']/parameter[@name='p4']" name="name">height</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addImage']/parameter[@name='p5']" name="name">color</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addImage']/parameter[@name='p6']" name="name">mode</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addImage']/parameter[@name='p7']" name="name">halftone</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addImage']/parameter[@name='p8']" name="name">brightness</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addImage']/parameter[@name='p9']" name="name">compress</attr>
+  <!-- com.epson.epos2.printer new Printer().addLogo() -->
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addLogo']/parameter[@name='p0']" name="name">key1</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addLogo']/parameter[@name='p1']" name="name">key2</attr>
+  <!-- com.epson.epos2.printer new Printer().addBarcode() -->
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addBarcode']/parameter[@name='p0']" name="name">data</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addBarcode']/parameter[@name='p1']" name="name">type</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addBarcode']/parameter[@name='p2']" name="name">hri</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addBarcode']/parameter[@name='p3']" name="name">font</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addBarcode']/parameter[@name='p4']" name="name">width</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addBarcode']/parameter[@name='p5']" name="name">height</attr>
+  <!-- com.epson.epos2.printer new Printer().addSymbol() -->
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addSymbol']/parameter[@name='p0']" name="name">data</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addSymbol']/parameter[@name='p1']" name="name">symbolType</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addSymbol']/parameter[@name='p2']" name="name">errorLevel</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addSymbol']/parameter[@name='p3']" name="name">width</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addSymbol']/parameter[@name='p4']" name="name">height</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addSymbol']/parameter[@name='p5']" name="name">size</attr>
+  <!-- com.epson.epos2.printer new Printer().addHLine() -->
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addHLine']/parameter[@name='style']" name="name">lineStyle</attr>
+  <!-- com.epson.epos2.printer new Printer().addVLineBegin() -->
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addVLineBegin']/parameter[@name='style']" name="name">lineStyle</attr>
+  <!-- com.epson.epos2.printer new Printer().addPageArea() -->
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addPageArea']/parameter[@name='p0']" name="name">x</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addPageArea']/parameter[@name='p1']" name="name">y</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addPageArea']/parameter[@name='p2']" name="name">width</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addPageArea']/parameter[@name='p3']" name="name">height</attr>
+  <!-- com.epson.epos2.printer new Printer().addPageDirection() -->
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addPageDirection']/parameter[@name='p0']" name="name">direction</attr>
+  <!-- com.epson.epos2.printer new Printer().addPagePosition() -->
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addPagePosition']/parameter[@name='p0']" name="name">x</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addPagePosition']/parameter[@name='p1']" name="name">y</attr>
+  <!-- com.epson.epos2.printer new Printer().addPageLine() -->
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addPageLine']/parameter[@name='p0']" name="name">startX</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addPageLine']/parameter[@name='p1']" name="name">startY</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addPageLine']/parameter[@name='p2']" name="name">endX</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addPageLine']/parameter[@name='p3']" name="name">endY</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addPageLine']/parameter[@name='p4']" name="name">lineStyle</attr>
+  <!-- com.epson.epos2.printer new Printer().addPageRectangle() -->
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addPageRectangle']/parameter[@name='p0']" name="name">startX</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addPageRectangle']/parameter[@name='p1']" name="name">startY</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addPageRectangle']/parameter[@name='p2']" name="name">endX</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addPageRectangle']/parameter[@name='p3']" name="name">endY</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addPageRectangle']/parameter[@name='p4']" name="name">lineStyle</attr>
+  <!-- com.epson.epos2.printer new Printer().addCut() -->
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addCut']/parameter[@name='p0']" name="name">cutType</attr>
+  <!-- com.epson.epos2.printer new Printer().addPulse() -->
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addPulse']/parameter[@name='p0']" name="name">drawer</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addPulse']/parameter[@name='p1']" name="name">time</attr>
+  <!-- com.epson.epos2.printer new Printer().addCommand() -->
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addCommand']/parameter[@name='p0']" name="name">data</attr>
+  <!-- com.epson.epos2.discovery IDiscoveryListener.onDiscovery() -->
   <attr path="/api/package[@name='com.epson.epos2.discovery']/interface[@name='DiscoveryListener']/method[@name='onDiscovery']/parameter[@name='p0']" name="name">deviceInfo</attr>
 </metadata>
