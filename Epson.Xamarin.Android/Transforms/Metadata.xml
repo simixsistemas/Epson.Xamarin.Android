@@ -6,4 +6,278 @@
   This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
   <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
   -->
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='LogoKeyCode']" name="visibility">public</attr>
+  <!-- NAMESPACE RENAMED -->
+  <attr path="/api/package[@name='com.epson.easyselect']" name="managedName">Epson.Xamarin.Android.Easyselect</attr>
+  <attr path="/api/package[@name='com.epson.epos.easyselect']" name="managedName">Epson.Xamarin.Android.Epos.Easyselect</attr>
+  <attr path="/api/package[@name='com.epson.epos2']" name="managedName">Epson.Xamarin.Android.Epos2</attr>
+  <attr path="/api/package[@name='com.epson.epos2.barcodescanner']" name="managedName">Epson.Xamarin.Android.Epos2.BarcodeScanner</attr>
+  <attr path="/api/package[@name='com.epson.epos2.cashchanger']" name="managedName">Epson.Xamarin.Android.Epos2.CashChanger</attr>
+  <attr path="/api/package[@name='com.epson.epos2.cat']" name="managedName">Epson.Xamarin.Android.Epos2.Cat</attr>
+  <attr path="/api/package[@name='com.epson.epos2.commbox']" name="managedName">Epson.Xamarin.Android.Epos2.Commbox</attr>
+  <attr path="/api/package[@name='com.epson.epos2.discovery']" name="managedName">Epson.Xamarin.Android.Epos2.Discovery</attr>
+  <attr path="/api/package[@name='com.epson.epos2.germanyfiscalelement']" name="managedName">Epson.Xamarin.Android.Epos2.GermanyFiscalElement</attr>
+  <attr path="/api/package[@name='com.epson.epos2.keyboard']" name="managedName">Epson.Xamarin.Android.Epos2.Keyboard</attr>
+  <attr path="/api/package[@name='com.epson.epos2.linedisplay']" name="managedName">Epson.Xamarin.Android.Epos2.LineDisplay</attr>
+  <attr path="/api/package[@name='com.epson.epos2.msr']" name="managedName">Epson.Xamarin.Android.Epos2.Msr</attr>
+  <attr path="/api/package[@name='com.epson.epos2.otherperipheral']" name="managedName">Epson.Xamarin.Android.Epos2.OtherPeripheral</attr>
+  <attr path="/api/package[@name='com.epson.epos2.poskeyboard']" name="managedName">Epson.Xamarin.Android.Epos2.PosKeyboard</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']" name="managedName">Epson.Xamarin.Android.Epos2.Printer</attr>
+  <attr path="/api/package[@name='com.epson.epos2.simpleserial']" name="managedName">Epson.Xamarin.Android.Epos2.SimpleSerial</attr>
+  <attr path="/api/package[@name='com.epson.eposdevice']" name="managedName">Epson.Xamarin.Android.EposDevice</attr>
+  <attr path="/api/package[@name='com.epson.eposdevice.commbox']" name="managedName">Epson.Xamarin.Android.EposDevice.Commbox</attr>
+  <attr path="/api/package[@name='com.epson.eposdevice.display']" name="managedName">Epson.Xamarin.Android.EposDevice.Display</attr>
+  <attr path="/api/package[@name='com.epson.eposdevice.keyboard']" name="managedName">Epson.Xamarin.Android.EposDevice.Keyboard</attr>
+  <attr path="/api/package[@name='com.epson.eposdevice.printer']" name="managedName">Epson.Xamarin.Android.EposDevice.Printer</attr>
+  <attr path="/api/package[@name='com.epson.eposdevice.scanner']" name="managedName">Epson.Xamarin.Android.EposDevice.Scanner</attr>
+  <attr path="/api/package[@name='com.epson.eposdevice.simpleserial']" name="managedName">Epson.Xamarin.Android.EposDevice.SimpleSerial</attr>
+  <attr path="/api/package[@name='com.epson.eposprint']" name="managedName">Epson.Xamarin.Android.EposPrint</attr>
+  <attr path="/api/package[@name='com.epson.epsonio']" name="managedName">Epson.Xamarin.Android.EpsonIO</attr>
+  <attr path="/api/package[@name='com.epson.epsonio.bluetooth']" name="managedName">Epson.Xamarin.Android.EpsonIO.Bluetooth</attr>
+  <attr path="/api/package[@name='com.epson.epsonio.usb']" name="managedName">Epson.Xamarin.Android.EpsonIO.Usb</attr>
+  <!-- REMOVE CONSTANTS (check values on `EnumFields`) -->
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='BATTERY_LEVEL_0']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='BATTERY_LEVEL_1']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='BATTERY_LEVEL_2']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='BATTERY_LEVEL_3']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='BATTERY_LEVEL_4']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='BATTERY_LEVEL_5']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='BATTERY_LEVEL_6']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='EVENT_BATTERY_EMPTY']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='EVENT_BATTERY_ENOUGH']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='FEED_CURRENT_TOF']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='FEED_CUTTING']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='FEED_NEXT_TOF']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='FEED_PEELING']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='LAYOUT_LABEL']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='LAYOUT_LABEL_BM']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='LAYOUT_RECEIPT']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='LAYOUT_RECEIPT_BM']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='MAINTENANCE_COUNTER_AUTOCUTTER']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='MAINTENANCE_COUNTER_OTHER']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='MAINTENANCE_COUNTER_PAPERFEED']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='PATTERN_1']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='PATTERN_2']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='PATTERN_3']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='PATTERN_4']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='PATTERN_5']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='PATTERN_6']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='PATTERN_7']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='PATTERN_8']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='PATTERN_9']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='PATTERN_10']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='PATTERN_A']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='PATTERN_B']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='PATTERN_C']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='PATTERN_D']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='PATTERN_E']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='PATTERN_ERROR']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='PATTERN_NONE']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='PATTERN_PAPER_EMPTY']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='SETTING_OTHER']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='SETTING_PAPERWIDTH']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='SETTING_PAPERWIDTH_58_0']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='SETTING_PAPERWIDTH_60_0']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='SETTING_PAPERWIDTH_80_0']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='SETTING_PAPERWIDTH_NOT_SETTING_TARGET']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='SETTING_PRINTDENSITY']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='SETTING_PRINTDENSITY_100']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='SETTING_PRINTDENSITY_105']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='SETTING_PRINTDENSITY_110']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='SETTING_PRINTDENSITY_115']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='SETTING_PRINTDENSITY_120']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='SETTING_PRINTDENSITY_125']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='SETTING_PRINTDENSITY_130']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='SETTING_PRINTDENSITY_70']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='SETTING_PRINTDENSITY_75']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='SETTING_PRINTDENSITY_80']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='SETTING_PRINTDENSITY_85']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='SETTING_PRINTDENSITY_90']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='SETTING_PRINTDENSITY_95']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='SETTING_PRINTDENSITY_DIP']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='SETTING_PRINTDENSITY_NOT_SETTING_TARGET']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='SETTING_PRINTSPEED']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='SETTING_PRINTSPEED_1']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='SETTING_PRINTSPEED_2']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='SETTING_PRINTSPEED_3']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='SETTING_PRINTSPEED_4']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='SETTING_PRINTSPEED_5']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='SETTING_PRINTSPEED_6']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='SETTING_PRINTSPEED_7']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='SETTING_PRINTSPEED_8']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='SETTING_PRINTSPEED_9']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='SETTING_PRINTSPEED_10']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='SETTING_PRINTSPEED_11']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='SETTING_PRINTSPEED_12']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='SETTING_PRINTSPEED_13']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='SETTING_PRINTSPEED_14']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='SETTING_PRINTSPEED_NOT_SETTING_TARGET']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='TM_H6000']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='TM_L90']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='TM_M10']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='TM_M30']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='TM_P20']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='TM_P60']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='TM_P60II']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='TM_P80']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='TM_T100']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='TM_T20']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='TM_T60']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='TM_T70']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='TM_T81']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='TM_T82']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='TM_T83']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='TM_T83III']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='TM_T88']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='TM_T90']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='TM_T90KP']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='TM_U220']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/field[@name='TM_U330']"/>
+  <!-- DISCOVERY CLASS CONSTANTS -->
+  <remove-node path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='FALSE']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='TRUE']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='TYPE_ALL']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='TYPE_CAT']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='TYPE_CCHANGER']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='TYPE_DISPLAY']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='TYPE_GFE']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='TYPE_HYBRID_PRINTER']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='TYPE_KEYBOARD']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='TYPE_MSR']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='TYPE_OTHER_PERIPHERAL']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='TYPE_POS_KEYBOARD']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='TYPE_PRINTER']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='TYPE_SCANNER']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='TYPE_SERIAL']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='PORTTYPE_ALL']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='PORTTYPE_BLUETOOTH']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='PORTTYPE_TCP']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='PORTTYPE_USB']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='FILTER_NAME']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='FILTER_NONE']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='MODEL_ALL']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='MODEL_TM_PRINTER']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2.discovery']/class[@name='Discovery']/field[@name='MODEL_TM_INTELLIGENT']"/>
+  <!-- EPOS2EXCEPTION CLASS CONSTANTS -->
+  <remove-node path="/api/package[@name='com.epson.epos2']/class[@name='Epos2Exception']/field[@name='ERR_ALREADY_OPENED']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2']/class[@name='Epos2Exception']/field[@name='ERR_ALREADY_USED']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2']/class[@name='Epos2Exception']/field[@name='ERR_BOX_CLIENT_OVER']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2']/class[@name='Epos2Exception']/field[@name='ERR_BOX_COUNT_OVER']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2']/class[@name='Epos2Exception']/field[@name='ERR_CONNECT']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2']/class[@name='Epos2Exception']/field[@name='ERR_DISCONNECT']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2']/class[@name='Epos2Exception']/field[@name='ERR_FAILURE']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2']/class[@name='Epos2Exception']/field[@name='ERR_ILLEGAL']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2']/class[@name='Epos2Exception']/field[@name='ERR_IN_USE']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2']/class[@name='Epos2Exception']/field[@name='ERR_MEMORY']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2']/class[@name='Epos2Exception']/field[@name='ERR_NOT_FOUND']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2']/class[@name='Epos2Exception']/field[@name='ERR_PARAM']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2']/class[@name='Epos2Exception']/field[@name='ERR_PROCESSING']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2']/class[@name='Epos2Exception']/field[@name='ERR_TIMEOUT']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2']/class[@name='Epos2Exception']/field[@name='ERR_TYPE_INVALID']"/>
+  <remove-node path="/api/package[@name='com.epson.epos2']/class[@name='Epos2Exception']/field[@name='ERR_UNSUPPORTED']"/>
+  <!-- RENAME METHODS -->
+  <attr path="/api/package[@name='com.epson.epos2.printer']/interface[@name='StatusChangeListener']/method[@name='onPtrStatusChange']" name="managedName">OnPrintStatusChanged</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/interface[@name='ReceiveListener']/method[@name='onPtrReceive']" name="managedName">OnPrintReceived</attr>
+  <!-- RENAME METHOD PARAMS -->
+  <!-- com.epson.epos2.printer IStatusChangeListener.onPtrStatusChange() -->
+  <attr path="/api/package[@name='com.epson.epos2.printer']/interface[@name='StatusChangeListener']/method[@name='onPtrStatusChange']/parameter[@name='p0']" name="name">printer</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/interface[@name='StatusChangeListener']/method[@name='onPtrStatusChange']/parameter[@name='p1']" name="name">eventType</attr>
+  <!-- com.epson.epos2.printer IReceiveListener.onPtrReceive() -->
+  <attr path="/api/package[@name='com.epson.epos2.printer']/interface[@name='ReceiveListener']/method[@name='onPtrReceive']/parameter[@name='p0']" name="name">printer</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/interface[@name='ReceiveListener']/method[@name='onPtrReceive']/parameter[@name='p1']" name="name">code</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/interface[@name='ReceiveListener']/method[@name='onPtrReceive']/parameter[@name='p2']" name="name">status</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/interface[@name='ReceiveListener']/method[@name='onPtrReceive']/parameter[@name='p3']" name="name">printJobId</attr>
+  <!-- com.epson.epos2.printer new Printer() -->
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/constructor[@name='Printer']/parameter[@name='lang']" name="name">printerModel</attr>
+  <!-- com.epson.epos2.printer new Printer().addTextAlign() -->
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addTextAlign']/parameter[@name='p0']" name="name">textAlign</attr>
+  <!-- com.epson.epos2.printer new Printer().addLineSpace() -->
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addLineSpace']/parameter[@name='p0']" name="name">lineSpace</attr>
+  <!-- com.epson.epos2.printer new Printer().addTextRotate() -->
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addTextRotate']/parameter[@name='p0']" name="name">isEnabled</attr>
+  <!-- com.epson.epos2.printer new Printer().addText() -->
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addText']/parameter[@name='p0']" name="name">text</attr>
+  <!-- com.epson.epos2.printer new Printer().addTextLang() -->
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addTextLang']/parameter[@name='p0']" name="name">lang</attr>
+  <!-- com.epson.epos2.printer new Printer().addTextFont() -->
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addTextFont']/parameter[@name='p0']" name="name">font</attr>
+  <!-- com.epson.epos2.printer new Printer().addTextSmooth() -->
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addTextSmooth']/parameter[@name='p0']" name="name">isEnabled</attr>
+  <!-- com.epson.epos2.printer new Printer().addTextSize() -->
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addTextSize']/parameter[@name='p0']" name="name">horizontalSize</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addTextSize']/parameter[@name='p1']" name="name">verticalSize</attr>
+  <!-- com.epson.epos2.printer new Printer().addTextStyle() -->
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addTextStyle']/parameter[@name='p0']" name="name">reverse</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addTextStyle']/parameter[@name='p1']" name="name">underline</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addTextStyle']/parameter[@name='p2']" name="name">bold</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addTextStyle']/parameter[@name='p3']" name="name">color</attr>
+  <!-- com.epson.epos2.printer new Printer().addHPosition() -->
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addHPosition']/parameter[@name='p0']" name="name">x</attr>
+  <!-- com.epson.epos2.printer new Printer().addFeedUnit() -->
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addFeedUnit']/parameter[@name='p0']" name="name">unit</attr>
+  <!-- com.epson.epos2.printer new Printer().addFeedLine() -->
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addFeedLine']/parameter[@name='p0']" name="name">line</attr>
+  <!-- com.epson.epos2.printer new Printer().addImage() -->
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addImage']/parameter[@name='p0']" name="name">image</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addImage']/parameter[@name='p1']" name="name">x</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addImage']/parameter[@name='p2']" name="name">y</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addImage']/parameter[@name='p3']" name="name">width</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addImage']/parameter[@name='p4']" name="name">height</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addImage']/parameter[@name='p5']" name="name">color</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addImage']/parameter[@name='p6']" name="name">mode</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addImage']/parameter[@name='p7']" name="name">halftone</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addImage']/parameter[@name='p8']" name="name">brightness</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addImage']/parameter[@name='p9']" name="name">compress</attr>
+  <!-- com.epson.epos2.printer new Printer().addLogo() -->
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addLogo']/parameter[@name='p0']" name="name">key1</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addLogo']/parameter[@name='p1']" name="name">key2</attr>
+  <!-- com.epson.epos2.printer new Printer().addBarcode() -->
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addBarcode']/parameter[@name='p0']" name="name">data</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addBarcode']/parameter[@name='p1']" name="name">type</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addBarcode']/parameter[@name='p2']" name="name">hri</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addBarcode']/parameter[@name='p3']" name="name">font</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addBarcode']/parameter[@name='p4']" name="name">width</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addBarcode']/parameter[@name='p5']" name="name">height</attr>
+  <!-- com.epson.epos2.printer new Printer().addSymbol() -->
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addSymbol']/parameter[@name='p0']" name="name">data</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addSymbol']/parameter[@name='p1']" name="name">symbolType</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addSymbol']/parameter[@name='p2']" name="name">errorLevel</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addSymbol']/parameter[@name='p3']" name="name">width</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addSymbol']/parameter[@name='p4']" name="name">height</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addSymbol']/parameter[@name='p5']" name="name">size</attr>
+  <!-- com.epson.epos2.printer new Printer().addHLine() -->
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addHLine']/parameter[@name='style']" name="name">lineStyle</attr>
+  <!-- com.epson.epos2.printer new Printer().addVLineBegin() -->
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addVLineBegin']/parameter[@name='style']" name="name">lineStyle</attr>
+  <!-- com.epson.epos2.printer new Printer().addPageArea() -->
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addPageArea']/parameter[@name='p0']" name="name">x</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addPageArea']/parameter[@name='p1']" name="name">y</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addPageArea']/parameter[@name='p2']" name="name">width</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addPageArea']/parameter[@name='p3']" name="name">height</attr>
+  <!-- com.epson.epos2.printer new Printer().addPageDirection() -->
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addPageDirection']/parameter[@name='p0']" name="name">direction</attr>
+  <!-- com.epson.epos2.printer new Printer().addPagePosition() -->
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addPagePosition']/parameter[@name='p0']" name="name">x</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addPagePosition']/parameter[@name='p1']" name="name">y</attr>
+  <!-- com.epson.epos2.printer new Printer().addPageLine() -->
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addPageLine']/parameter[@name='p0']" name="name">startX</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addPageLine']/parameter[@name='p1']" name="name">startY</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addPageLine']/parameter[@name='p2']" name="name">endX</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addPageLine']/parameter[@name='p3']" name="name">endY</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addPageLine']/parameter[@name='p4']" name="name">lineStyle</attr>
+  <!-- com.epson.epos2.printer new Printer().addPageRectangle() -->
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addPageRectangle']/parameter[@name='p0']" name="name">startX</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addPageRectangle']/parameter[@name='p1']" name="name">startY</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addPageRectangle']/parameter[@name='p2']" name="name">endX</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addPageRectangle']/parameter[@name='p3']" name="name">endY</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addPageRectangle']/parameter[@name='p4']" name="name">lineStyle</attr>
+  <!-- com.epson.epos2.printer new Printer().addCut() -->
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addCut']/parameter[@name='p0']" name="name">cutType</attr>
+  <!-- com.epson.epos2.printer new Printer().addPulse() -->
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addPulse']/parameter[@name='p0']" name="name">drawer</attr>
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addPulse']/parameter[@name='p1']" name="name">time</attr>
+  <!-- com.epson.epos2.printer new Printer().addCommand() -->
+  <attr path="/api/package[@name='com.epson.epos2.printer']/class[@name='Printer']/method[@name='addCommand']/parameter[@name='p0']" name="name">data</attr>
+  <!-- com.epson.epos2.discovery IDiscoveryListener.onDiscovery() -->
+  <attr path="/api/package[@name='com.epson.epos2.discovery']/interface[@name='DiscoveryListener']/method[@name='onDiscovery']/parameter[@name='p0']" name="name">deviceInfo</attr>
 </metadata>

@@ -10,4 +10,98 @@
     <method jni-name="writeToParcel" parameter="flags" clr-enum-type="Android.OS.ParcelableWriteFlags" />
   </mapping>
   -->
+  <mapping jni-class="com/epson/epos2/printer/StatusChangeListener">
+    <method jni-name="onPtrStatusChange" parameter="eventType" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.Event" />
+  </mapping>
+  <mapping jni-class="com/epson/epos2/printer/ReceiveListener">
+    <method jni-name="onPtrReceive" parameter="code" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.Code" />
+  </mapping>
+  <mapping jni-class="com/epson/epos2/printer/Printer">
+    <method jni-name="ctor" 
+            parameter="printerSeries" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.Serie" />
+    <method jni-name="ctor" 
+            parameter="printerModel" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.Model" />
+    
+    <method jni-name="addTextAlign" 
+            parameter="textAlign" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.TextAlign" />
+    
+    <method jni-name="addTextRotate" 
+            parameter="isEnabled" clr-enum-type="Epson.Xamarin.Android.Enums.Boolean" />
+    
+    <method jni-name="addTextLang" 
+            parameter="lang" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.Lang" />
+    
+    <method jni-name="addTextFont" 
+            parameter="font" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.Font" />
+    
+    <method jni-name="addTextSmooth" 
+            parameter="isEnabled" clr-enum-type="Epson.Xamarin.Android.Enums.Boolean" />
+    
+    <method jni-name="addTextSize" 
+            parameter="horizontalSize" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.TextSize" />
+    <method jni-name="addTextSize" 
+            parameter="verticalSize" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.TextSize" />
+    
+    <method jni-name="addTextStyle" 
+            parameter="reverse" clr-enum-type="Epson.Xamarin.Android.Enums.Boolean" />
+    <method jni-name="addTextStyle" 
+            parameter="underline" clr-enum-type="Epson.Xamarin.Android.Enums.Boolean" />
+    <method jni-name="addTextStyle" 
+            parameter="bold" clr-enum-type="Epson.Xamarin.Android.Enums.Boolean" />
+    <method jni-name="addTextStyle" 
+            parameter="color" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.Color" />
+    
+    <method jni-name="addImage" 
+            parameter="color" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.Color" />
+    <method jni-name="addImage" 
+            parameter="mode" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.ColorMode" />
+    <method jni-name="addImage" 
+            parameter="halftone" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.Halftone" />
+    <method jni-name="addImage" 
+            parameter="compress" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.Compress" />
+    
+    <method jni-name="addBarcode"
+            parameter="type" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.BarcodeType" />
+    <method jni-name="addBarcode"
+            parameter="hri" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.HRI" />
+    <method jni-name="addBarcode"
+            parameter="font" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.Font" />
+    
+    <method jni-name="addSymbol"
+            parameter="symbolType" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.SymbolType" />
+    <method jni-name="addSymbol"
+            parameter="errorLevel" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.ErrorCorrection" />
+    
+    <method jni-name="addHLine"
+            parameter="lineStyle" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.LineStyle" />
+    
+    <method jni-name="addVLineBegin"
+            parameter="lineStyle" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.LineStyle" />
+            
+    <method jni-name="addPageDirection"
+            parameter="direction" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.PageDirection" />
+
+    <method jni-name="addPageLine"
+            parameter="lineStyle" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.LineStyle" />
+    
+    <method jni-name="addPageRectangle"
+            parameter="lineStyle" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.LineStyle" />
+    
+    <method jni-name="addCut"
+            parameter="cutType" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.CutType" />
+
+    <method jni-name="addPulse"
+            parameter="drawer" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.Drawer" />
+    <method jni-name="addPulse"
+            parameter="time" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.PulseTime" />
+    
+    <method jni-name="addSound"
+            parameter="pattern" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.Pattern" />
+    
+    <method jni-name="addFeedPosition"
+            parameter="position" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.FeedPosition" />
+    
+    <method jni-name="addLayout"
+            parameter="type" clr-enum-type="Epson.Xamarin.Android.Enums.Printer.LayoutType" />
+  </mapping>
 </enum-method-mappings>

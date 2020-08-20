@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package>
+  <metadata>
+    <id>Epson.Xamarin.Android</id>
+    <title>Epson Xamarin Android</title>
+    <version>1.0.0.0</version>
+    <authors>Símix Sistemas</authors>
+    <owners>Símix Sistemas</owners>
+    <summary>Xamarin.Android Bindings for Epson Printer</summary>
+    <description>Xamarin.Android Bindings for Epson Printer</description>
+    <copyright>© Símix Sistemas. All rights reserved.</copyright>
+    <projectUrl>https://github.com/simixsistemas/Epson.Xamarin.Android</projectUrl>
+    <dependencies>
+      <group targetFramework="MonoAndroid9.0"/>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin/Release/Epson.Xamarin.Android.dll" target="lib/MonoAndroid90" />
+  </files>
+</package>

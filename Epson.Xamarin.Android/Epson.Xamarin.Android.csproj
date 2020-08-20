@@ -1,6 +1,37 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
+    <Configurations>Debug;Release</Configurations>
+    <Title>Epson.Xamarin.Android</Title>
+    <Summary>Epson Plugin for Xamarin Android</Summary>
+    <Description>Epson Plugin for Xamarin Android</Description>
+    <AssemblyName>Epson.Xamarin.Android</AssemblyName>
+    <RootNamespace>Epson.Xamarin.Android</RootNamespace>
+    <PackageId>Epson.Xamarin.Android</PackageId>
+    <Product>Epson.Xamarin.Android</Product>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyFileVersion>1.0.0.0</AssemblyFileVersion>
+    <Version Condition=" '$(BUILD_BUILDNUMBER)' == '' ">1.0.0.0</Version>
+    <Version Condition=" '$(BUILD_BUILDNUMBER)' != '' ">$(BUILD_BUILDNUMBER)</Version>
+    <PackageVersion>1.0.0.0</PackageVersion>
+    <IsPackable>true</IsPackable>
+    <PackOnBuild>true</PackOnBuild>
+    <NeutralLanguage>pt-BR</NeutralLanguage>
+    <DefineConstants>$(DefineConstants);</DefineConstants>
+    <UseFullSemVerForNuGet>false</UseFullSemVerForNuGet>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <LangVersion>latest</LangVersion>
+    <PackageIconUrl>https://avatars3.githubusercontent.com/u/34796791?s=88&amp;v=4</PackageIconUrl>
+    <PackageTags>xamarin, windows, ios, android, xamarin.forms, plugin, Epson.Xamarin.Android</PackageTags>
+    <Owner>Símix Sistemas</Owner>
+    <Author>Símix Sistemas</Author>
+    <Company>Símix Sistemas</Company>
+    <Copyright>Copyright 2020</Copyright>
+    <FileVersion>1.0.0.0</FileVersion>
+    <Version>1.0.0.0</Version>
+    <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
@@ -10,8 +41,6 @@
     <TemplateGuid>{77efb91c-a7e9-4b0e-a7c5-31eeec3c6d46}</TemplateGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Epson.Xamarin.Android</RootNamespace>
-    <AssemblyName>Epson.Xamarin.Android</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <Deterministic>True</Deterministic>
     <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
@@ -46,8 +75,19 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Epson.Xamarin.Android.nuspec" />
     <None Include="Jars\AboutJars.txt" />
     <None Include="Additions\AboutAdditions.txt" />
+    <EmbeddedNativeLibrary Include="lib\arm64-v8a\libepos2.so" />
+    <EmbeddedNativeLibrary Include="lib\arm64-v8a\libeposeasyselect.so" />
+    <EmbeddedNativeLibrary Include="lib\armeabi-v7a\libepos2.so" />
+    <EmbeddedNativeLibrary Include="lib\armeabi-v7a\libeposeasyselect.so" />
+    <EmbeddedNativeLibrary Include="lib\armeabi\libepos2.so" />
+    <EmbeddedNativeLibrary Include="lib\armeabi\libeposeasyselect.so" />
+    <EmbeddedNativeLibrary Include="lib\x86_64\libepos2.so" />
+    <EmbeddedNativeLibrary Include="lib\x86_64\libeposeasyselect.so" />
+    <EmbeddedNativeLibrary Include="lib\x86\libepos2.so" />
+    <EmbeddedNativeLibrary Include="lib\x86\libeposeasyselect.so" />
   </ItemGroup>
   <ItemGroup>
     <TransformFile Include="Transforms\Metadata.xml" />
